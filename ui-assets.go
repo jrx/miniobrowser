@@ -111,13 +111,13 @@ var _productionIndexHTML = []byte(`<!DOCTYPE html>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Minio Browser</title>
-        <link rel="stylesheet" href="/minio/loader.css" type="text/css">
+        <link rel="stylesheet" href="./loader.css" type="text/css">
     </head>
 
     <body>
         <div class="page-load">
             <div class="pl-inner">
-                <img src="/minio/logo.svg" alt="">
+                <img src="./logo.svg" alt="">
             </div>
         </div>
         <div id="root"></div>
@@ -133,19 +133,19 @@ var _productionIndexHTML = []byte(`<!DOCTYPE html>
                     <ul>
                         <li>
                             <a href="http://www.google.com/chrome/">
-                                <img src="/minio/chrome.png" alt="">
+                                <img src="./chrome.png" alt="">
                                 <div>Chrome</div>
                             </a>
                         </li>
                         <li>
                             <a href="https://www.mozilla.org/en-US/firefox/new/">
-                                <img src="/minio/firefox.png" alt="">
+                                <img src="./firefox.png" alt="">
                                 <div>Firefox</div>
                             </a>
                         </li>
                         <li>
                             <a href="https://www.apple.com/safari/">
-                                <img src="/minio/safari.png" alt="">
+                                <img src="./safari.png" alt="">
                                 <div>Safari</div>
                             </a>
                         </li>
@@ -157,7 +157,7 @@ var _productionIndexHTML = []byte(`<!DOCTYPE html>
         <![endif]-->
 
         <script>currentUiVersion = '2016-12-09T08:32:08Z'</script>
-        <script src="/minio/index_bundle-2016-12-09T08-32-08Z.js"></script>
+        <script src="./index_bundle-2016-12-09T08-32-08Z.js"></script>
     </body>
 </html>
 `)
